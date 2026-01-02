@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZenTime Watches</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ZenTime Watches</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="main-content-container">
+      <!-- Hero Section (EXACTLY AS ORIGINAL) -->
+      <section id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div id="text">
+                <h1>ZenTime Watches</h1>
+                <p>ZenTime Watches is a modern <span>and stylish watch brand</span> focused on quality and com<span>fort. Our watches are made with premium materials, making</span> them perfect for both daily <span> wear and special occasi</span> ons. ZenTime Designs are simple, <span>elegant, and built for long-lasting performance. Every</span> <span>ZenTime watch</span> adds value to your style as well <span>as your time.</span></p>
+                <button>
+                  <a href="#products">CLICK HERE</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Our <span class="highlight">Story</span></h2>
+            <p class="section-subtitle">Crafting timeless pieces since 2015</p>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="about-img-container">
+                <img src="https://images.unsplash.com/photo-1602854976571-85003f2a8e15?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8WmVuVGltZSUyMFdhdGNoZXN8ZW58MHx8MHx8fDA%3D" alt="ZenTime Watches" class="about-img">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="about-content">
+                <p class="about-description">
+                  Founded in 2015, ZenTime emerged from a simple idea: to create timepieces that honor both tradition and innovation. Each watch is meticulously crafted by master watchmakers who combine Swiss precision with minimalist Scandinavian design.
+                </p>
+                <div class="about-stats">
+                  <div class="stat-item">
+                    <h3>50K+</h3>
+                    <p>Happy Customers</p>
+                  </div>
+                  <div class="stat-item">
+                    <h3>8+</h3>
+                    <p>Years of Excellence</p>
+                  </div>
+                  <div class="stat-item">
+                    <h3>24</h3>
+                    <p>Awards Won</p>
+                  </div>
+                </div>
+                <p class="about-description">
+                  Our mission extends beyond telling time—we create heirlooms that connect generations. Every ZenTime watch is backed by a lifetime warranty and sustainable sourcing pledge.
+                </p>
+                <button class="about-btn">Explore Our Journey</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section id="products" class="products-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Masterpiece <span class="highlight">Collections</span></h2>
+            <p class="section-subtitle">Each timepiece tells a unique story of precision and elegance</p>
+          </div>
+          <div class="row g-4">
+            <!-- Product 1 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1667754188015-ffa59a35d2b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fFJvbGV4JTIwd2F0Y2hlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Rolex">
+                  <div class="product-overlay">
+                    <button class="info-btn" data-bs-toggle="collapse" data-bs-target="#info1">
+                      <i class="fas fa-info-circle"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse product-info" id="info1">
+                  <div class="info-content">
+                    <h4>Rolex</h4>
+                    <p class="price">$349.99</p>
+                    <p>Synonymous with luxury and prestige, Rolex is renowned for its high-quality Swiss timepieces. Models like the Submariner and Daytona are considered must-haves for watch enthusiasts.</p>
+                    <a href="#contact" class="info-link">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1663564307102-6df750b2196b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFBhdGVrJTIwUGhpbGlwcGUlMjB3YXRjaGVzfGVufDB8fDB8fHww" alt="Patek Philippe">
+                  <div class="product-overlay">
+                    <button class="info-btn" data-bs-toggle="collapse" data-bs-target="#info2">
+                      <i class="fas fa-info-circle"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse product-info" id="info2">
+                  <div class="info-content">
+                    <h4>Patek Philippe</h4>
+                    <p class="price">$429.99</p>
+                    <p>Patek Philippe is known for its exquisite craftsmanship and timeless designs. It is highly regarded among collectors and is often seen as a symbol of success.</p>
+                    <a href="#contact" class="info-link">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1719518411378-a50e74953db2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QXVkZW1hcnMlMjBQaWd1ZXQlMjB3YXRjaGVzfGVufDB8fDB8fHww" alt="Audemars Piguet">
+                  <div class="product-overlay">
+                    <button class="info-btn" data-bs-toggle="collapse" data-bs-target="#info3">
+                      <i class="fas fa-info-circle"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse product-info" id="info3">
+                  <div class="info-content">
+                    <h4>Audemars Piguet</h4>
+                    <p class="price">$899.99</p>
+                    <p>Famous for its innovative designs, particularly the Royal Oak, Audemars Piguet has been a leader in luxury watchmaking since 1875.</p>
+                    <a href="#contact" class="info-link">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://plus.unsplash.com/premium_photo-1728759434873-f7da19786b7d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8T21lZ2ElMjB3YXRjaGVzfGVufDB8fDB8fHww" alt="Omega">
+                  <div class="product-overlay">
+                    <button class="info-btn" data-bs-toggle="collapse" data-bs-target="#info4">
+                      <i class="fas fa-info-circle"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse product-info" id="info4">
+                  <div class="info-content">
+                    <h4>Omega</h4>
+                    <p class="price">$279.99</p>
+                    <p>Known for its precision and association with space exploration, Omega offers a range of stylish watches, including the Speedmaster and Seamaster collections.</p>
+                    <a href="#contact" class="info-link">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1581063683670-6df2247f1d8e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Q2FydGllciUyMEZlbWFsZSUyMHdhdGNoZXN8ZW58MHx8MHx8fDA%3D" alt="Cartier">
+                  <div class="product-overlay">
+                    <button class="info-btn" data-bs-toggle="collapse" data-bs-target="#info5">
+                      <i class="fas fa-info-circle"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse product-info" id="info5">
+                  <div class="info-content">
+                    <h4>Cartier</h4>
+                    <p class="price">$319.99</p>
+                    <p>The Cartier Tank and Ballon Bleu are classic choices that exude sophistication and timeless elegance, making them favorites among women.</p>
+                    <a href="#contact" class="info-link">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1613945336909-c41315d4e18a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFJvbGV4JTIwRmVtYWxlJTIwd2F0Y2hlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Rolex">
+                  <div class="product-overlay">
+                    <button class="info-btn" data-bs-toggle="collapse" data-bs-target="#info6">
+                      <i class="fas fa-info-circle"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse product-info" id="info6">
+                  <div class="info-content">
+                    <h4>Rolex</h4>
+                    <p class="price">$379.99</p>
+                    <p>Known for its iconic designs, Rolex offers several models for women, including the Datejust and Lady-Datejust, which combine luxury with practicality.</p>
+                    <a href="#contact" class="info-link">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Product 7 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1582066407878-ee0a6bdd8010?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RGlzbmV5JTIwd2F0Y2hlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Disney">
+                  <div class="product-overlay">
+                    <button class="info-btn" data-bs-toggle="collapse" data-bs-target="#info7">
+                      <i class="fas fa-info-circle"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse product-info" id="info7">
+                  <div class="info-content">
+                    <h4>Disney</h4>
+                    <p class="price">$299.99</p>
+                    <p>Offers a range of watches with Disney-themed designs, perfect for young fans.</p>
+                    <a href="#contact" class="info-link">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Product 8 -->
+            <div class="col-md-6 col-lg-3">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="https://images.unsplash.com/photo-1593343653320-9dcc4229588c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TG9ydXMlMjB3YXRjaGVzfGVufDB8fDB8fHww" alt="Lorus">
+                  <div class="product-overlay">
+                    <button class="info-btn" data-bs-toggle="collapse" data-bs-target="#info8">
+                      <i class="fas fa-info-circle"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse product-info" id="info8">
+                  <div class="info-content">
+                    <h4>Lorus</h4>
+                    <p class="price">$549.99</p>
+                    <p>Known for its elegant and stylish watches suitable for children.</p>
+                    <a href="#contact" class="info-link">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <p class="section-subtitle">We'd love to hear from you</p>
+          </div>
+          <div class="contact-form">
+            <div class="content">
+              <div class="left-side">
+                <div class="address details">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="topic">Address</div>
+                  <div class="text-one">Surkhet, NP12</div>
+                  <div class="text-two">Birendranagar 06</div>
+                </div>
+                <div class="phone details">
+                  <i class="fas fa-phone-alt"></i>
+                  <div class="topic">Phone</div>
+                  <div class="text-one">+0098 9893 5647</div>
+                  <div class="text-two">+0096 3434 5678</div>
+                </div>
+                <div class="email details">
+                  <i class="fas fa-envelope"></i>
+                  <div class="topic">Email</div>
+                  <div class="text-one">codinglab@gmail.com</div>
+                  <div class="text-two">info.codinglab@gmail.com</div>
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="topic-text"><span>Send us a</span> message</div>
+                <p>If you have any work from me or any types of queries related to my tutorial, you can send me a message from here. It's my pleasure to help you.</p>
+                <form action="#">
+                  <div class="input-box">
+                    <input type="text" placeholder="Enter your name">
+                  </div>
+                  <div class="input-box">
+                    <input type="text" placeholder="Enter your email">
+                  </div>
+                  <div class="input-box message-box">
+                    <textarea placeholder="Enter your message"></textarea>
+                  </div>
+                  <div class="button">
+                    <input type="button" value="Send Now">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="footer-brand">
+              <h3>ZenTime Watches</h3>
+              <p class="footer-tagline">Where time meets perfection</p>
+              <p class="footer-desc">Crafting timeless pieces since 2015. Each watch tells a story of precision, elegance, and sustainable luxury.</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-4">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+              <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+              <li><a href="#products"><i class="fas fa-chevron-right"></i> Products</a></li>
+              <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 mb-4">
+            <h4 class="footer-heading">Customer Service</h4>
+            <ul class="footer-links">
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Shipping Info</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Returns & Exchanges</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> Size Guide</a></li>
+              <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 mb-4">
+            <h4 class="footer-heading">Stay Connected</h4>
+            <div class="newsletter">
+              <p>Subscribe for exclusive updates</p>
+              <div class="input-group">
+                <input type="email" class="form-control" placeholder="Your email">
+                <button class="btn-newsletter" type="button"><i class="fas fa-paper-plane"></i></button>
+              </div>
+            </div>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p class="copyright">&copy; 2025 ZenTime Watches. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-cc-paypal"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
